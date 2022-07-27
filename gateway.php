@@ -14,17 +14,17 @@ class Gateway {
 	/**
 	 * @var string	Gateway Hosted API Endpoint
 	 */
-	static public $hostedUrl = 'https://gateway.handpoint.com/hosted/';
+	static public $hostedUrl = 'https://commerce-api.handpoint.com/hosted/';
 
 	/**
 	 * @var string	Gateway Direct API Endpoint
 	 */
-	static public $directUrl = 'https://gateway.handpoint.com/direct/';
+	static public $directUrl = 'https://commerce-api.handpoint.com/direct/';
 
 	/**
-	 * @var string	Merchant Account Id or Alias
+	 * @var string	Merchant Account Id or Alias. It will be provided by the Handpoint Support team
 	 */
-	static public $merchantID = '100001';
+	static public $merchantID = '155928';
 
 	/**
 	 * @var string	Password for above Merchant Account
@@ -32,9 +32,9 @@ class Gateway {
 	static public $merchantPwd = null;
 
 	/**
-	 * @var string	Secret for above Merchant Account
+	 * @var string	Secret for above Merchant Account. It will be provided by the Handpoint support team.
 	 */
-	static public $merchantSecret = 'Circle4Take40Idea';
+	static public $merchantSecret = 'm3rch4nts1gn4tur3k3y';
 
 	/**
 	 * @var string	Proxy URL if required (eg. 'https://www.proxy.com:3128')
